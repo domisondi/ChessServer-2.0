@@ -8,6 +8,27 @@
 namespace chess {
 
 
+
+enum PieceIdentifier
+{
+    NONE,
+    PAWN,
+    BISHOP,
+    KNIGHT,
+    ROOK,
+    QUEEN,
+    KING
+};
+
+
+class ChessBoard
+{
+    PieceIdentifier board[8][8];
+public:
+};
+
+
+
 class Piece
 {
 public:
